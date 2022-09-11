@@ -1,8 +1,6 @@
-#tdlib.h>
-#include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+
 /**
  * main - Entry point
  *
@@ -10,15 +8,14 @@
  */
 int main(void)
 {
-  int i;
+  char l;
 
-  i = 48;
-  while  (i < 58)
+  l = 'z';
+  while (l >= 'a')
     {
-      putchar(i);
-      i++;
+      putchar(l);
+      l--;
     }
   putchar('\n');
-
   return (0);
 }
