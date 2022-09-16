@@ -23,10 +23,9 @@ for (x = 0; x <= i; x++)
 _putchar('#');
 }
 _putchar('\n');
-
+}
 if (size <= 0)
 {
 _putchar('\n');
 }
 }
-
